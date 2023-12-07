@@ -1,11 +1,11 @@
 {
-    "name": "topthink/think-validate",
-    "description": "think validate",
+    "name": "songyue/think-validate",
+    "description": "thinkphp think validate",
     "license": "Apache-2.0",
     "authors": [
         {
-            "name": "liu21st",
-            "email": "liu21st@gmail.com"
+            "name": "songyue",
+            "email": "songyue118@gmail.com"
         }
     ],
     "require": {
