@@ -4,7 +4,7 @@
 
 ## 安装
 ~~~
-composer require topthink/think-validate
+composer require songyue/think-validate
 ~~~
 
 ## 用法
