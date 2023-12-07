@@ -1000,7 +1000,9 @@ class Validate
         } else {
             $param = null;
         }
-
+        if ($param == null) { 
+               return false !== filter_var($value, is_int($rule) ? $rule : filter_id($rule));
+        }
         return false !== filter_var($value, is_int($rule) ? $rule : filter_id($rule), $param);
     }
 
